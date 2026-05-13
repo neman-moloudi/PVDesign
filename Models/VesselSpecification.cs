@@ -29,6 +29,10 @@ namespace PVDesigner.Models
 
     public class VesselSpecification
     {
+        // --- Identification ---
+        /// <summary>User-assigned vessel tag / name, e.g. "V-101" or "Reactor-01"</summary>
+        public string VesselName { get; set; } = "V-101";
+
         // --- Orientation & Geometry ---
         public VesselOrientation Orientation { get; set; } = VesselOrientation.Vertical;
 

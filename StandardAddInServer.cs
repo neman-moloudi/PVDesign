@@ -112,7 +112,7 @@ namespace PVDesigner
 
         private void OnButtonClicked(NameValueMap context)
         {
-            using (var form = new VesselDesignerForm())
+            using (var form = new VesselDesignerForm(_inventorApp))
             {
                 form.ShowDialog();
             }
