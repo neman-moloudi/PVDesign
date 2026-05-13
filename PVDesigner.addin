@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Addin Type="Standard">
+
+  <!-- Must match the GuidAttribute on StandardAddInServer -->
+  <ClassId>{B4F8A3C2-1E5D-4A6F-9B2C-7D3E8F4A1B9C}</ClassId>
+
+  <!-- Identifies your add-in to Inventor -->
+  <ClientId>{B4F8A3C2-1E5D-4A6F-9B2C-7D3E8F4A1B9C}</ClientId>
+
+  <DisplayName>PV Designer (AD-2000)</DisplayName>
+  <Description>Pressure Vessel Designer according to AD-2000 Regelwerk</Description>
+
+  <!-- Full path to the built DLL – updated by Install.ps1 -->
+  <Assembly>REPLACE_WITH_FULL_PATH\PVDesigner.dll</Assembly>
+
+  <!-- Load automatically when Inventor starts -->
+  <LoadOnStartUp>1</LoadOnStartUp>
+
+  <!-- Inventor 2025 = version 29.x -->
+  <SupportedSoftwareVersionGreaterThan>28.</SupportedSoftwareVersionGreaterThan>
+
+</Addin>
